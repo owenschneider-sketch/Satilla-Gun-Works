@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Satilla Gun Works</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen text-white">
+  <div class="min-h-screen bg-fixed bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1500&q=80');">
+    <header class="max-w-6xl mx-auto p-6 flex items-center justify-between bg-black/40 backdrop-blur-sm rounded-xl mt-4 shadow-lg">
+      <div class="flex items-center gap-4">
+        <img src="Satilla_Gun_Works_Logo.jpeg" alt="Satilla Gun Works" class="w-28 h-28 object-contain rounded-md shadow-lg" />
+        <div>
+          <h1 class="text-3xl font-extrabold tracking-tight">Satilla Gun Works</h1>
+          <p class="text-sm text-gray-200">Professional gunsmithing • Repairs • Custom builds • Finishing</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 items-center text-sm">
+        <a href="#services" class="hover:text-green-300">Services</a>
+        <a href="#pricing" class="hover:text-green-300">Pricing</a>
+        <a href="#book" class="hover:text-green-300">Book</a>
+        <a href="#contact" class="px-3 py-2 bg-green-800 text-white rounded-md shadow">Contact</a>
+      </nav>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-6">
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12 bg-black/40 rounded-xl p-6 mt-6 shadow-xl">
+        <div>
+          <h2 class="text-4xl font-extrabold leading-tight">Local, expert gunsmithing — done right.</h2>
+          <p class="mt-4 text-lg text-gray-200">
+            From routine safety checks to precision accurizing and restoration,
+            Satilla Gun Works brings professional, insured gunsmith services —
+            now available at partner shops or by appointment.
+          </p>
+          <div class="mt-6 flex gap-4">
+            <a href="#book" class="inline-block px-5 py-3 bg-green-800 text-white rounded-md font-medium shadow-md">Book an appointment</a>
+            <a href="#services" class="inline-block px-5 py-3 border border-gray-200 rounded-md text-gray-100 bg-black/40">View services</a>
+          </div>
+          <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-200">
+            <li>• Bench inspections &amp; diagnostics</li>
+            <li>• Basic cleaning &amp; complete disassembly</li>
+            <li>• Trigger jobs / tuning</li>
+            <li>• Bedding, action truing &amp; accurizing</li>
+            <li>• Refinishing &amp; Cerakote (partnered)</li>
+          </ul>
+        </div>
+        <div class="bg-black/40 rounded-xl shadow-md p-6 backdrop-blur-md">
+          <h3 class="font-semibold text-white">Quick quote</h3>
+          <p class="text-sm text-gray-200 mt-2">Tell us the service you need and we'll provide a fast estimate.</p>
+          <form class="mt-4 grid gap-3">
+            <input class="border p-3 rounded-md bg-white/80 text-black" placeholder="Your name" />
+            <input class="border p-3 rounded-md bg-white/80 text-black" placeholder="Email or Phone" />
+            <select class="border p-3 rounded-md bg-white/80 text-black">
+              <option>Diagnostic / Bench</option>
+              <option>Trigger / Sights</option>
+              <option>Action / Bedding</option>
+              <option>Full restoration</option>
+            </select>
+            <textarea class="border p-3 rounded-md bg-white/80 text-black" rows="3" placeholder="Brief description"></textarea>
+            <div class="flex gap-2">
+              <button type="button" class="px-4 py-2 bg-green-800 text-white rounded-md">Request quote</button>
+              <button type="button" class="px-4 py-2 border rounded-md bg-white/20 text-white">Call us</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="services" class="py-12">
+        <h3 class="text-3xl font-bold text-white mb-6">Services</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-black/40 rounded-xl shadow-md p-4">
+            <img src="https://images.unsplash.com/photo-1608580904621-287a3e1bdc5e?auto=format&fit=crop&w=600&q=60" class="w-full h-40 object-cover rounded-md" alt="Cleaning and safety" />
+            <h4 class="mt-4 text-xl font-semibold">Routine &amp; Safety</h4>
+            <p class="text-gray-200 mt-2">Cleaning, inspections, function checks and minor repairs.</p>
+          </div>
+          <div class="bg-black/40 rounded-xl shadow-md p-4">
+            <img src="https://images.unsplash.com/photo-1581090464777-44a6a7a0f1b7?auto=format&fit=crop&w=600&q=60" class="w-full h-40 object-cover rounded-md" alt="Trigger and performance" />
+            <h4 class="mt-4 text-xl font-semibold">Trigger &amp; Performance</h4>
+            <p class="text-gray-200 mt-2">Trigger jobs, tuning, accurizing, and sight installation.</p>
+          </div>
+          <div class="bg-black/40 rounded-xl shadow-md p-4">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=60" class="w-full h-40 object-cover rounded-md" alt="Restoration work" />
+            <h4 class="mt-4 text-xl font-semibold">Restoration</h4>
+            <p class="text-gray-200 mt-2">Restorations, refinishing, and full custom builds.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="py-12">
+        <h3 class="text-3xl font-bold text-white mb-6">Pricing examples</h3>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-sm text-gray-100">
+          <div class="bg-black/40 rounded-xl p-5 shadow-sm">
+            <div class="font-medium">Bench / Diagnostic</div>
+            <div class="mt-2">$50 (credited if repair accepted)</div>
+          </div>
+          <div class="bg-black/40 rounded-xl p-5 shadow-sm">
+            <div class="font-medium">Trigger / Sight install</div>
+            <div class="mt-2">$75–$150</div>
+          </div>
+          <div class="bg-black/40 rounded-xl p-5 shadow-sm">
+            <div class="font-medium">Sight/Optic installation w/ bore sighting</div>
+            <div class="mt-2">$60–$120</div>
+          </div>
+          <div class="bg-black/40 rounded-xl p-5 shadow-sm">
+            <div class="font-medium">Bedding / Action work</div>
+            <div class="mt-2">$200–$600+</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="book" class="py-12">
+        <h3 class="text-3xl font-bold text-white mb-4">Book an appointment</h3>
+        <p class="text-sm text-gray-200 mt-2">Select a partner location or request in-shop pickup.</p>
+        <div class="mt-6 bg-black/40 rounded-xl p-6 shadow-sm">
+          <form class="grid gap-3">
+            <input class="border p-3 rounded-md bg-white/80 text-black" placeholder="Full name" />
+            <input class="border p-3 rounded-md bg-white/80 text-black" placeholder="Email or phone" />
+            <select class="border p-3 rounded-md bg-white/80 text-black">
+              <option>Choose service</option>
+              <option>Diagnostic</option>
+              <option>Trigger / Sights</option>
+              <option>Action / Bedding</option>
+            </select>
+            <div class="flex gap-2">
+              <input type="date" class="border p-3 rounded-md bg-white/80 text-black" />
+              <input type="time" class="border p-3 rounded-md bg-white/80 text-black" />
+            </div>
+            <button type="button" class="px-4 py-2 bg-green-800 text-white rounded-md">Request Appointment</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="contact" class="py-12">
+        <h3 class="text-3xl font-bold text-white mb-4">Contact &amp; Location</h3>
+        <p class="text-gray-100">Email: info@satillagunworks.com</p>
+        <p class="text-gray-100">Phone: (555) 123-4567</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
